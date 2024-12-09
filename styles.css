@@ -40,14 +40,14 @@ ul {
   padding: 1.2rem 3rem;
 }
 
-.navbar .navbar-brand {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
 .navbar-brand {
   display: flex;
 }
+
+#nav .navbar-nav {
+  gap: 1.4rem;
+}
+
 
 #nav .navbar-nav li a {
   position: relative;
