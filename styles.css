@@ -37,11 +37,15 @@ ul {
 
 .navbar {
   justify-content: space-between;
-  padding: 1.2rem 3rem;
+  padding: 1rem 3rem;
 }
 
 .navbar-brand {
   display: flex;
+}
+
+.navbar input[type="text"] {
+  margin-left: 33%;
 }
 
 #nav .navbar-nav {
