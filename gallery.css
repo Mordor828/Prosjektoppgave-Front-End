@@ -1,5 +1,7 @@
 /* Coded by Erik B */
 
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
 * {
   margin: 0;
   box-sizing: 0;
@@ -28,7 +30,7 @@ nav {
   align-items: center;
 }
 input {
-  width: 20rem;
+  width: 12rem;
   height: 2 rem;
   border-radius: 20rem;
   background-color: #b8b5b5;
@@ -37,7 +39,9 @@ input {
   letter-spacing: 10px;
 }
 
-ul {
+ul,
+a {
+  text-decoration: none;
   font-size: 1.2rem;
   display: flex;
   color: white;
@@ -101,3 +105,5 @@ main {
 #grid-item9 {
   grid-area: i;
 }
+
+/* ------------------------------------------effects--------------------------------------- */
