@@ -46,6 +46,8 @@ ul {
 
 .navbar input[type="text"] {
   margin-left: 33%;
+    background-color: #b8b5b5;
+
 }
 
 #nav .navbar-nav {
