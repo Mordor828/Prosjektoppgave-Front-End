@@ -45,8 +45,8 @@ ul {
   font-weight: bold;
 }
 
-#nav .navbar-nav {
-  gap: 1.4rem;
+.navbar-brand {
+  display: flex;
 }
 
 #nav .navbar-nav li a {
