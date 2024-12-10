@@ -64,8 +64,7 @@ li {
 a {
   border-right: 2px #b8b5b5 solid;
   border-bottom: 2px #b8b5b5 solid;
-  border-radius: 20px;
-  text-align: center;
+  border-radius: 0 20px 20px 0;
 }
 /* --------------------------------------------------Hero-------------------------------------------------- */
 
