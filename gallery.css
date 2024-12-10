@@ -10,6 +10,9 @@
 body {
   display: block;
 }
+
+/* --------------------------------------------------Header-------------------------------------------------- */
+
 header {
   display: flex;
   flex-direction: row;
@@ -45,14 +48,13 @@ input {
 
 ul,
 a {
-  text-decoration: none;
-  font-size: 1.2rem;
   display: flex;
   color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
   list-style: none;
-  transition: all 0.3s ease-in-out;
-  gap: 1.8rem;
-  padding-right: 5rem;
+  padding-right: 2rem;
+  gap: 5rem;
 }
 
 li {
@@ -63,7 +65,9 @@ a {
   border-right: 2px #b8b5b5 solid;
   border-bottom: 2px #b8b5b5 solid;
   border-radius: 20px;
+  text-align: center;
 }
+/* --------------------------------------------------Hero-------------------------------------------------- */
 
 main {
   justify-content: center;
@@ -71,12 +75,10 @@ main {
 }
 
 .bg-vid {
-
   background-position: center;
   width: 100%;
   opacity: 0.85;
-    position: absolute;
-
+  position: absolute;
 }
 
 .gallery {
@@ -131,10 +133,3 @@ main {
 }
 
 /* ------------------------------------------effects--------------------------------------- */
-
-/* li,
-a :hover {
-  border-bottom: 2px solid gray;
-  border-right: 2px solid gray;
-  border-radius: 5px;
-} */
