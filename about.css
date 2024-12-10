@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
 
 
 
 
 body {
 
-font-family: Orbitron;
+font-family: 'Proxima Nova Condensed', sans-serif;
 background-image:url(./nordlys.jpg);
 min-height: 500px;
 
@@ -19,7 +19,7 @@ background-size: cover;
 
 h1 {
     color: aliceblue;
-    font-size: 24px;
+    font-size: 30px;
     text-align:center;
     
 }
@@ -27,7 +27,7 @@ h1 {
 p {
 
     color: aliceblue;
-    font-size: 18px;
+    font-size: 28px;
     text-align:center;
     padding:6%;
     
@@ -36,7 +36,7 @@ p {
 
    h2 {
         color: aliceblue;
-        font-size: 24px;
+        font-size: 28px;
         text-align: center;
         padding: 0.2%;
     }
@@ -47,13 +47,13 @@ p {
         display: flex;
         text-align: left;
         padding: 10%;
-        font-size: 18px;
+        font-size: 28px;
         
     }
 
     h3 {
         text-align: center;
-        font-size: 24px;
+        font-size: 28px;
         color: aliceblue;
     }
 
@@ -64,6 +64,7 @@ p {
         display: flex;
         justify-content: center;
         padding: 5%;
+        font-size: 30px;
     }
 
     .picture {
