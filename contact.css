@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: 0;
+  font-family: orbitron, sans-serif;
+}
+body {
+  display: block;
+}
+
+/* --------------------------------------------------Header-------------------------------------------------- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #040122;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  z-index: 10;
+}
+
+#logo {
+  padding-inline: 2rem;
+  height: 95%;
+}
+
+nav {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 20rem;
+  background-color: #b8b5b5;
+  border: 0.25rem solid navy;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+ul,
+a {
+  display: flex;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 2rem;
+  gap: 5rem;
+}
+
+li {
+  height: 1.2rem;
+}
+
+a {
+  border-right: 2px #b8b5b5 solid;
+  border-bottom: 2px #b8b5b5 solid;
+  border-radius: 20px;
+  text-align: center;
+}
+
+main {
+  justify-content: center;
+  display: flex;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#home::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.567);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+}
+
+#home .contain {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #eee9e9;
+  gap: 2rem;
+  padding: 0 3rem;
+  font-family: orbitron, sans-serif;
+  padding-left: 38%;
+  padding-top: 100px;
+}
+
+#home .contain p {
+  font-size: 1.3rem;
+  width: 52%;
+}
+
+#home .contain .button {
+  width: fit-content;
+  font-size: 1rem;
+  padding: 0.9rem 1.8rem;
+  font-weight: bold;
+  border-radius: 8px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.567);
+  backdrop-filter: blur(6px);
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: transitionIn 1s;
+  padding-top: 1px;
+}
+
+.socials li {
+  margin: 0 10px;
+  margin-top: 300px;
+}
+
+.socials a {
+  padding: 12px 12px;
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+.socials a i {
+  font-size: 30px;
+  transition: color 0.4s ease;
+}
+
+.socials a:hover {
+  color: rgb(172, 23, 85);
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  font-family: orbitron, sans-serif;
+  word-spacing: 3px;
+  text-transform: capitalize;
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+@media (max-width: 1006px) {
+  #home .contain p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 688px) {
+  html {
+    font-size: 80%;
+  }
+  #home .contain {
+    text-align: center;
+    align-items: center;
+  }
+}
