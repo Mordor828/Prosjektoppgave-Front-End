@@ -44,6 +44,12 @@ input {
   letter-spacing: 5px;
 }
 
+input::placeholder {
+  color: black;
+  opacity: 0.8;
+  font-weight: bolder;
+}
+
 ul,
 a {
   display: flex;
