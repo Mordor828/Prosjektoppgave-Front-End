@@ -43,16 +43,15 @@ input {
   letter-spacing: 5px;
 }
 
-ul,
+ul
 a {
-  text-decoration: none;
-  font-size: 1.2rem;
   display: flex;
   color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
   list-style: none;
-  transition: all 0.3s ease-in-out;
-  gap: 1.8rem;
-  padding-right: 5rem;
+  padding-right: 2rem;
+  gap: 5rem;
 }
 
 li {
@@ -62,7 +61,7 @@ li {
 a {
   border-right: 2px #b8b5b5 solid;
   border-bottom: 2px #b8b5b5 solid;
-  border-radius: 20px;
+  border-radius: 0 20px 20px 0;
 }
 
 main {
