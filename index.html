@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" type="module" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -24,15 +25,32 @@
       </nav>
     </header>
     <div id="home">
-      <video id="video" src="Assets/Videoer/nordlysnosound.mp4" autoplay muted loop></video>
+      <video
+        id="video"
+        src="Assets/Videoer/nordlysnosound.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
       <div class="container contain">
         <h1>Welcome To Our Page <br /></h1>
         <p>
-         This is a group project in Front-End course.
-          We are making a page about how to track northern lights.
-          Feel free to check out our site!
+          This is a group project in Front-End course. We are making a page
+          about how to track northern lights. Feel free to check out our site!
         </p>
       </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="inputContainer">
+      <h1>Select a place to get info from.</h1>
+      <label for="countrySelect">Please select a country</label>
+      <select name="countrySelect" id="countrySelect"></select>
+      <label for="citySelect">Please select a city</label>
+      <select name="citySelect" id="citySelect"></select>
+      <ul class="forecastOutput"></ul>
     </div>
   </body>
 </html>
