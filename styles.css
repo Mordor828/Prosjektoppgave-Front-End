@@ -43,7 +43,7 @@ input {
   letter-spacing: 5px;
 }
 
-ul
+ul,
 a {
   display: flex;
   color: white;
