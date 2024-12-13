@@ -1,6 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
-
-
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
 
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 
@@ -12,141 +10,133 @@
 body {
   display: block;
 }
-@media only screen and (max-width: 600px) {}
-
-
-header {
-    display: flex;
-    flex-direction: row;
-    background-color: #040122;
-    position: fixed;
-    width: 100%;
-    height: 10%;
-    z-index: 10;
-  }
-  
-  #logo {
-    padding-inline: 2rem;
-    height: 95%;
-  }
-  
-  nav {
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  input {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    width: 12rem;
-    height: 1.5rem;
-    border-radius: 20rem;
-    background-color: #b8b5b5;
-    border: 0.25rem solid navy;
-    text-align: center;
-    letter-spacing: 5px;
-  }
-  
-  input::placeholder {
-    color: black;
-    opacity: 0.8;
-    font-weight: bolder;
-  }
-  ul,
-  a {
-    display: flex;
-    color: white;
-    font-size: 1.2rem;
-    text-decoration: none;
-    list-style: none;
-    padding-right: 2rem;
-    gap: 5rem;
-  }
-  
-  li {
-    height: 1.2rem;
-  }
-  
-  a {
-    border-right: 2px #b8b5b5 solid;
-    border-bottom: 2px #b8b5b5 solid;
-    border-radius: 0 20px 20px 0;
-  }
-
-body {
-
-font-family: Orbitron;
-background-image:url(./Assets/Bilder/nordlys.jpg);
-font-family: 'Proxima Nova Condensed', sans-serif;
-background-image:url(./nordlys.jpg);
-min-height: 500px;
-
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-display: block;
-
+@media only screen and (max-width: 600px) {
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #040122;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  z-index: 10;
+}
+
+#logo {
+  padding-inline: 2rem;
+  height: 95%;
+}
+
+nav {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 12rem;
+  height: 1.5rem;
+  border-radius: 20rem;
+  background-color: #b8b5b5;
+  border: 0.25rem solid navy;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 0.8;
+  font-weight: bolder;
+}
+ul,
+a {
+  display: flex;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 2rem;
+  gap: 5rem;
+}
+
+li {
+  height: 1.2rem;
+}
+
+a {
+  transition: 250ms;
+  border-right: 2px #b8b5b5 solid;
+  border-bottom: 2px #b8b5b5 solid;
+  border-radius: 0 20px 20px 0;
+}
+
+a:hover {
+  border-radius: 0px;
+  background-color: #463acb;
+}
+
+body {
+  font-family: Orbitron;
+  background-image: url(./Assets/Bilder/nordlys.jpg);
+  font-family: "Proxima Nova Condensed", sans-serif;
+  background-image: url(./nordlys.jpg);
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
 
 h1 {
-    color: aliceblue;
-    font-size: 30px;
-    text-align:center;
-    
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
 }
 
 p {
+  color: aliceblue;
+  font-size: 28px;
+  text-align: center;
+  padding: 6%;
+}
 
-    color: aliceblue;
-    font-size: 28px;
-    text-align:center;
-    padding:6%;
-    
-    
-    }
+h2 {
+  color: aliceblue;
+  font-size: 28px;
+  text-align: center;
+  padding: 0.2%;
+}
 
-   h2 {
-        color: aliceblue;
-        font-size: 28px;
-        text-align: center;
-        padding: 0.2%;
-    }
+.main-ul {
+  color: aliceblue;
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+  padding: 10%;
+  font-size: 28px;
+}
 
-    .main-ul {
-        color: aliceblue;
-        flex-direction: column;
-        display: flex;
-        text-align: left;
-        padding: 10%;
-        font-size: 28px;
-        
-    }
+h3 {
+  text-align: center;
+  font-size: 28px;
+  color: aliceblue;
+}
 
-    h3 {
-        text-align: center;
-        font-size: 28px;
-        color: aliceblue;
-    }
+h4 {
+  font-size: 24px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  font-size: 30px;
+}
 
-    h4 {
-
-        font-size: 24px;
-        color: aliceblue;
-        display: flex;
-        justify-content: center;
-        padding: 5%;
-        font-size: 30px;
-    }
-
-    .picture {
-     display:flex;
-     justify-content: center;
-
-    }
-
-  
-
-    
+.picture {
+  display: flex;
+  justify-content: center;
+}
