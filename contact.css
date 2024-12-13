@@ -66,14 +66,14 @@ li {
   height: 1.2rem;
 }
 
-a {
+.a1 {
   transition: 250ms;
   border-right: 2px #b8b5b5 solid;
   border-bottom: 2px #b8b5b5 solid;
   border-radius: 0 20px 20px 0;
 }
 
-a:hover {
+.a1:hover {
   border-radius: 0px;
   background-color: #463acb;
 }
