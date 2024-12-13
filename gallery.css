@@ -51,6 +51,7 @@ input::placeholder {
   opacity: 0.8;
   font-weight: bolder;
 }
+
 ul,
 a {
   display: flex;
@@ -90,8 +91,8 @@ main {
   z-index: 1;
   margin-top: 10%;
   display: grid;
-  grid-auto-columns: 12em;
-  grid-auto-rows: 8em;
+  grid-auto-columns: 19em;
+  grid-auto-rows: 10em;
   gap: 1em;
   grid-template-areas:
     "a b c"
@@ -101,11 +102,6 @@ main {
 
 .gallery-item {
   background-color: black;
-  opacity: 0.8;
-  transition: 0.5s;
-}
-.gallery-item:hover {
-  opacity: 1;
 }
 
 #grid-item1,
@@ -137,4 +133,22 @@ main {
   grid-area: i;
 }
 
+.grid-item-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 0rem;
+  font-family: sans-serif;
+  z-index: 99;
+  color: white;
+  opacity: 0;
+  transition: 0.8s;
+}
 /* ------------------------------------------effects--------------------------------------- */
+
+.grid-item-text:hover {
+  opacity: 1;
+  transform: translateY(0);
+  font-size: 1.5rem;
+}
