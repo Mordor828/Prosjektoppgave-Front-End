@@ -68,6 +68,7 @@ li {
 }
 
 a {
+  transition: 250ms;
   border-right: 2px #b8b5b5 solid;
   border-bottom: 2px #b8b5b5 solid;
   border-radius: 0 20px 20px 0;
@@ -104,15 +105,20 @@ main {
   background-color: black;
 }
 
-#grid-item1,
-:hover {
+#grid-item1 {
   grid-area: a;
+  background-image: url(./Assets/Bilder/kp1.jpg);
+  background-size: cover;
 }
 #grid-item2 {
   grid-area: b;
+  background-image: url(./Assets/Bilder/kp2.jpg);
+  background-size: cover;
 }
 #grid-item3 {
   grid-area: c;
+  background-image: url(./Assets/Bilder/kp3.jpg);
+  background-size: cover;
 }
 #grid-item4 {
   grid-area: d;
@@ -147,8 +153,12 @@ main {
 }
 /* ------------------------------------------effects--------------------------------------- */
 
+a:hover {
+  border-radius: 0px;
+  background-color: #463acb;
+}
+
 .grid-item-text:hover {
   opacity: 1;
-  transform: translateY(0);
   font-size: 1.5rem;
 }
