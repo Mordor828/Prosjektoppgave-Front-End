@@ -54,7 +54,7 @@ citySelect.addEventListener("change", async (event) => {
         value[i].start
       ).toLocaleDateString()} kp value is: ${value[i].value}`;
       forecastOutput.appendChild(li1);
-      limitApiList(1);
+      limitApiList(1); 
     }
   });
 });
