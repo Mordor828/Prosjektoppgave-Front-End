@@ -7,11 +7,8 @@
   box-sizing: 0;
   font-family: orbitron, sans-serif;
 }
-body {
-  display: block;
-}
-@media only screen and (max-width: 600px) {
-}
+
+
 
 header {
   display: flex;
@@ -81,7 +78,7 @@ a:hover {
 body {
   font-family: Orbitron;
   font-family: "Proxima Nova Condensed", sans-serif;
-  background-image: url(./nordlys.jpg);
+  background-image: url(Assets/Bilder/nordlys.jpg);
   min-height: 500px;
 
   background-attachment: fixed;
